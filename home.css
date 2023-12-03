@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Poppins&family=Quattrocento&family=Ruda&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    row-gap: 10px;
+    column-gap: 25px;
+}
+
+.nav {
+    background-color: green;
+    grid-row-end: 3;
+    grid-row: 1/14;
+    grid-column: 1, 6;
+    background-color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1cm;
+    justify-items: start;
+    overflow: hidden;
+}
+
+.marpad {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.essentials {
+    margin-top: 0px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.recomended-list>ul {
+    list-style-type: none;
+
+}
+
+.recomended-list>ul>li>a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.mar-in {
+    margin-inline: 10px;
+    margin-top: 10px;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+.content {
+    /* background-color:green; */
+    grid-column: 2/6;
+    grid-row: 1/15;
+
+}
+
+.nav-2 {
+    position: sticky;
+}
+
+.album-card {
+    width: 362px;
+    height: 75px;
+    border-radius: 4px 0px 0px 4px;
+
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 15px;
+    background-color: rgb(48, 48, 48);
+    margin-inline: 20px;
+
+}
+.album-card>img{
+    height:95%;
+}
+
+.cards 
+{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+   height:350px;
+   overflow-y: hidden;
+
+   
+}
+
+.car-1 
+{
+    Width: 210px;
+    Height: 251px;
+    background-color:rgb(24, 24, 24);
+    margin-inline: 20px;
+    margin-bottom: 15px;
+    background: #181818;    
+}
+.moti{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-1 img
+{
+   padding: 15px;
+   height: 200px;
+}
+
+#text-fer
+{
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#para{
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.01em;
+text-align: left;
+margin-left: 10px;
+
+}
+
+.p1{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: -0.05em;
+text-align: left;
+margin-left: 10px;
+
+}
+.artist-image>img{
+    height:75px;
+}
+
+.p2{
+    font-family: DM Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: -0.05em;
+text-align: left;
+margin-left: 10px;
+}
+
+.heart{
+    margin-left: 10px;
+}
+
+.player-man
+{
+    width: 91.7%;
+    position: fixed;
+    bottom:22px;
+
+}
+
+.player-man-2
+{
+    width: 91.7%;
+    position: fixed;
+    font-size: large;
+    background-color: green;
+    bottom: 0px;
+    height: 20px;
+    text-align: right;   
+   
+}
+
+.player-man-2>p{
+    margin-right: 10px;
+    color: black;
+}
